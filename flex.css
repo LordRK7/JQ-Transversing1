@@ -1,0 +1,21 @@
+.container{
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    /* flex-direction:column; */
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* row-gap: 10px; */
+    column-gap: 10px;
+    flex-flow: wrap row;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: space-evenly;
+    
+
+}
+.box{
+    border: 2px solid red;
+    margin: 10px 0;
+    width: 100px;
+}
